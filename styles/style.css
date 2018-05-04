@@ -1,0 +1,159 @@
+#page {
+	height: 10%;
+	margin: 0 auto;
+	max-width: 1000px;
+	background-color: white;
+}
+body {
+	color: #4B4B4B;	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	background-color: #EFF5F8;
+}
+main, aside {
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+}
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2.5em;
+	text-align: center;
+}
+h2 {
+	margin-top: 0.5em;
+	font-size: 2.25em;
+}
+h1,h2 {
+	font-family: cursive;
+}
+#top {
+	width: 100%;
+	font-family: cursive;
+	list-style-type: none;
+	margin-top: 0px;
+	padding: 0;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+}
+#top a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+#top a:hover, #top a:active, #top a:focus, #top a.active {
+	color: #F68979;
+}
+
+main {
+	max-width: 620px;
+}
+aside{
+	max-width: 300px;
+	margin-top: 0px;
+	padding-bottom: 100px;
+}
+
+.grayscale {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	margin-left: 5px;
+}
+.grayscale:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+#line {
+	display: inline-block;
+}
+#line a:link , a:visited{
+	text-decoration: none;
+	color: #FF944C;
+}
+#line a:hover, a:active, a:focus{
+	text-decoration: underline;
+	color: #7F3300;
+}
+#cable {
+	float: right;
+	margin-left: 20px;
+}
+#alca {
+	float: left;
+	margin-right: 20px;
+}
+figcaption {
+	display: block;
+	margin-top: 0.5em;
+	font-size: 0.6em;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+}
+#menu {
+	background-color: #1E1E1E;
+	margin: 0;
+	text-align: center;
+}
+#menu a {
+	color: white;
+	font-size: 0.7em;
+	font-weight: 200;
+	text-decoration: none;
+	padding: 10px;
+	font-family: cursive;
+	font-style: normal;
+}
+#image img {
+	max-width: 100%;
+}
+#image p {
+	color: #F68979;
+	font-family: cursive;
+	font-size: 1.5em;
+	padding: 10px;
+	margin-top: 10px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+
+@media (min-width: 1000px) {
+#menu {
+	display: none;
+}
+#top {
+	position: static;
+}
+#top a {
+	width: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: left;
+	color: #1E1E1E;
+	margin-bottom: 20px;
+}
+header {
+    overflow: hidden;
+}
+#image p {
+	padding: 20px;
+	border-style: solid;
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	left: 570px;
+	color: white;
+	border-width: 5px;
+}
+#image {
+	position: relative;
+}
+}
